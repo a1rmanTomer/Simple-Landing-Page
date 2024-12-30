@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  background-color: #fefefe;
+  border: 0.0625rem solid #e8e8e8;
+  top: 0.85rem;
+  padding: 0.25rem 1rem;
+  border-radius: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  max-height: fit-content;
+}
+
+.navbar .logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.navbar .logo h2 {
+  font-size: 1.115rem;
+  font-weight: 605;
+  color: #111111;
+}
+
+.navbar .logo img {
+  height: 2.115rem;
+  width: 2.115rem;
+  border-radius: 50%;
+}
+
+.navbar .nav-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  color: #2e2e2e;
+  flex-wrap: wrap;
+}
+
+.navbar .nav-links a {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+}
+
+.navbar .nav-links a:visited {
+  color: inherit;
+}
+
+.navbar a button {
+  padding: 0.25rem 1.25rem;
+  display: flex;
+  gap: 0.5rem;
+  font-size: 1rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.75rem;
+  border: solid 0.0925rem #dddddd;
+  background-color: #111111;
+  color: #fefefe;
+}
+
+.hero {
+  margin-top: 4.5rem;
+  height: calc(100vh - 4.5rem);
+  padding: 0 4.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2%;
+  flex-wrap: wrap;
+}
+
+.hero .left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.hero .left a button {
+  padding: 0.25rem 1.25rem;
+  display: flex;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.65rem;
+  border: solid 0.0925rem #dddddd;
+  background-color: #111111;
+  color: #fefefe;
+}
+
+.hero .right img {
+  max-width: 520px;
+  width: 44%;
+  border-radius: 1.35rem;
+}
