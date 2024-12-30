@@ -11,6 +11,13 @@
   box-sizing: border-box;
 }
 
+body {
+  padding: 0;
+  margin: 0;
+  height: 100svh;
+  width: 100svw;
+}
+
 .navbar {
   display: flex;
   position: absolute;
@@ -20,7 +27,7 @@
   background-color: #fefefe;
   border: 0.0625rem solid #e8e8e8;
   top: 0.85rem;
-  padding: 0.25rem 1rem;
+  padding: 0.66rem 2.25rem;
   border-radius: 2rem;
   left: 50%;
   transform: translateX(-50%);
@@ -91,7 +98,6 @@
   align-items: center;
   justify-content: space-between;
   gap: 2%;
-  flex-wrap: wrap;
 }
 
 .hero .left {
@@ -100,6 +106,24 @@
   align-items: flex-start;
   justify-content: center;
   gap: 1.5rem;
+}
+
+.hero .left h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #111111;
+}
+
+.hero .left h2 {
+  font-size: 1.75rem;
+  font-weight: 515;
+  color: #2e2e2e;
+}
+
+.hero .left p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #2e2e2e;
 }
 
 .hero .left a button {
@@ -117,7 +141,52 @@
 }
 
 .hero .right img {
-  max-width: 520px;
-  width: 44%;
+  max-width: 33svw;
   border-radius: 1.35rem;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 0.15rem 0.45rem;
+    top: 0.5rem;
+  }
+  .navbar .logo h2 {
+    font-size: 0.95rem;
+  }
+  .navbar .logo img {
+    height: 1.95rem;
+    width: 1.95rem;
+  }
+  .navbar .nav-links {
+    gap: 1rem;
+  }
+  .navbar .nav-links a {
+    font-size: 0.85rem;
+  }
+  .hero {
+    margin-top: 10rem;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+  .hero .left {
+    align-items: center;
+    text-align: center;
+  }
+  .hero .right img {
+    max-width: 100%;
+  }
+}
+
+/* even smaller */
+@media (max-width: 505px) {
+  .hero .left h1 {
+    font-size: 2.5rem;
+  }
+  .hero .left h2 {
+    font-size: 1.25rem;
+  }
+  .hero .left p {
+    font-size: 1rem;
+  }
 }
