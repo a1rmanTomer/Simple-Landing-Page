@@ -145,7 +145,7 @@ body {
 }
 
 .hero .right img {
-  max-width: 33svw;
+  width: 65rem;
   border-radius: 1.35rem;
 }
 
