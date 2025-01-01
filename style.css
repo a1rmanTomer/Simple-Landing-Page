@@ -92,6 +92,7 @@ body {
   border: solid 0.0925rem #dddddd;
   background-color: #111111;
   color: #fefefe;
+  cursor: pointer;
 }
 
 .hero {
@@ -142,6 +143,7 @@ body {
   border: solid 0.0925rem #dddddd;
   background-color: #111111;
   color: #fefefe;
+  cursor: pointer;
 }
 
 .hero .right img {
