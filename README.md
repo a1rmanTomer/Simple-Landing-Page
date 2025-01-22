@@ -6,3 +6,9 @@ This project was made taking media queries into account and the design is fully 
 
 ## Preview
 <img width="1439" alt="image" src="https://github.com/user-attachments/assets/92d8d484-45d0-4ca8-b7b7-50994310e10a" />
+
+
+
+
+
+####eitn was here
